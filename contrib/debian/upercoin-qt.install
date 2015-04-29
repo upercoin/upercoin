@@ -1,0 +1,5 @@
+upercoin-qt usr/bin
+share/pixmaps/upercoin32.xpm usr/share/pixmaps
+share/pixmaps/upercoin80.xpm usr/share/pixmaps
+debian/upercoin-qt.desktop usr/share/applications
+debian/upercoin-qt.protocol usr/share/kde4/services/

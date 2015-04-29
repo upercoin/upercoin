@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+# -*- mode: makefile; coding: utf-8 -*-
+
+DEB_INSTALL_EXAMPLES_upercoind += debian/examples/*
+DEB_INSTALL_MANPAGES_upercoind += debian/manpages/*
+
+%:
+	dh --with bash-completion $@
+
+override_dh_auto_build:
+	cd src; $(MAKE) -f makefile.unix upercoind USE_ASM=1 USE_LEVELDB=1
+	$(MAKE)
+
+override_dh_auto_clean:
+	if [ -f Makefile ]; then $(MAKE) clean; else rm -rf build/; rm -f upercoin-qt; fi
+	cd src; $(MAKE) -f makefile.unix clean
+
+override_dh_auto_configure:
+	qmake upercoin-qt.pro USE_QRCODE=1 USE_ASM=1 USE_LEVELDB=1
+
+# Ensure wrapper is set executable
+binary-post-install/upercoind:
+	chmod +x $(cdbs_curdestdir)usr/bin/upercoind
+binary-post-install/upercoin-qt:
+	chmod +x $(cdbs_curdestdir)usr/bin/upercoin-qt

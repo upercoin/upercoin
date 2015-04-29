@@ -1,0 +1,2 @@
+debian/bin/upercoind usr/bin
+src/upercoind usr/lib/upercoin

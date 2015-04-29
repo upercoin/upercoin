@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="MSVC">
+        <df name="myupercoinqt">
+          <in>myupercoinqt_plugin_import.cpp</in>
+        </df>
+      </df>
+      <df name="src">
+        <df name="json">
+          <in>json_spirit_reader.cpp</in>
+          <in>json_spirit_value.cpp</in>
+          <in>json_spirit_writer.cpp</in>
+        </df>
+        <df name="leveldb">
+          <df name="db">
+            <in>autocompact_test.cc</in>
+            <in>builder.cc</in>
+            <in>c.cc</in>
+            <in>c_test.c</in>
+            <in>corruption_test.cc</in>
+            <in>db_bench.cc</in>
+            <in>db_impl.cc</in>
+            <in>db_iter.cc</in>
+            <in>db_test.cc</in>
+            <in>dbformat.cc</in>
+            <in>dbformat_test.cc</in>
+            <in>dumpfile.cc</in>
+            <in>filename.cc</in>
+            <in>filename_test.cc</in>
+            <in>leveldb_main.cc</in>
+            <in>log_reader.cc</in>
+            <in>log_test.cc</in>
+            <in>log_writer.cc</in>
+            <in>memtable.cc</in>
+            <in>repair.cc</in>
+            <in>skiplist_test.cc</in>
+            <in>table_cache.cc</in>
+            <in>version_edit.cc</in>
+            <in>version_edit_test.cc</in>
+            <in>version_set.cc</in>
+            <in>version_set_test.cc</in>
+            <in>write_batch.cc</in>
+            <in>write_batch_test.cc</in>
+          </df>
+          <df name="doc">
+            <df name="bench">
+              <in>db_bench_sqlite3.cc</in>
+              <in>db_bench_tree_db.cc</in>
+            </df>
+          </df>
+          <df name="helpers">
+            <df name="memenv">
+              <in>memenv.cc</in>
+              <in>memenv_test.cc</in>
+            </df>
+          </df>
+          <df name="issues">
+            <in>issue178_test.cc</in>
+            <in>issue200_test.cc</in>
+          </df>
+          <df name="port">
+            <in>port_posix.cc</in>
+            <in>port_win.cc</in>
+          </df>
+          <df name="table">
+            <in>block.cc</in>
+            <in>block_builder.cc</in>
+            <in>filter_block.cc</in>
+            <in>filter_block_test.cc</in>
+            <in>format.cc</in>
+            <in>iterator.cc</in>
+            <in>merger.cc</in>
+            <in>table.cc</in>
+            <in>table_builder.cc</in>
+            <in>table_test.cc</in>
+            <in>two_level_iterator.cc</in>
+          </df>
+          <df name="util">
+            <in>arena.cc</in>
+            <in>arena_test.cc</in>
+            <in>bloom.cc</in>
+            <in>bloom_test.cc</in>
+            <in>cache.cc</in>
+            <in>cache_test.cc</in>
+            <in>coding.cc</in>
+            <in>coding_test.cc</in>
+            <in>comparator.cc</in>
+            <in>crc32c.cc</in>
+            <in>crc32c_test.cc</in>
+            <in>env.cc</in>
+            <in>env_posix.cc</in>
+            <in>env_test.cc</in>
+            <in>env_win.cc</in>
+            <in>filter_policy.cc</in>
+            <in>hash.cc</in>
+            <in>hash_test.cc</in>
+            <in>histogram.cc</in>
+            <in>logging.cc</in>
+            <in>options.cc</in>
+            <in>status.cc</in>
+            <in>testharness.cc</in>
+            <in>testutil.cc</in>
+          </df>
+        </df>
+        <df name="qt">
+          <df name="test">
+            <in>test_main.cpp</in>
+            <in>uritests.cpp</in>
+          </df>
+          <in>aboutdialog.cpp</in>
+          <in>addressbookpage.cpp</in>
+          <in>addresstablemodel.cpp</in>
+          <in>askpassphrasedialog.cpp</in>
+          <in>bitcoin.cpp</in>
+          <in>bitcoinaddressvalidator.cpp</in>
+          <in>bitcoinamountfield.cpp</in>
+          <in>bitcoingui.cpp</in>
+          <in>bitcoinstrings.cpp</in>
+          <in>bitcoinunits.cpp</in>
+          <in>clientmodel.cpp</in>
+          <in>coincontroldialog.cpp</in>
+          <in>coincontroltreewidget.cpp</in>
+          <in>csvmodelwriter.cpp</in>
+          <in>editaddressdialog.cpp</in>
+          <in>guiutil.cpp</in>
+          <in>intro.cpp</in>
+          <in>macdockiconhandler.mm</in>
+          <in>macnotificationhandler.mm</in>
+          <in>mintingfilterproxy.cpp</in>
+          <in>mintingtablemodel.cpp</in>
+          <in>mintingview.cpp</in>
+          <in>monitoreddatamapper.cpp</in>
+          <in>multisigaddressentry.cpp</in>
+          <in>multisigdialog.cpp</in>
+          <in>multisiginputentry.cpp</in>
+          <in>notificator.cpp</in>
+          <in>optionsdialog.cpp</in>
+          <in>optionsmodel.cpp</in>
+          <in>overviewpage.cpp</in>
+          <in>qrcodedialog.cpp</in>
+          <in>qtipcserver.cpp</in>
+          <in>qvalidatedlineedit.cpp</in>
+          <in>qvaluecombobox.cpp</in>
+          <in>rpcconsole.cpp</in>
+          <in>sendcoinsdialog.cpp</in>
+          <in>sendcoinsentry.cpp</in>
+          <in>signverifymessagedialog.cpp</in>
+          <in>trafficgraphwidget.cpp</in>
+          <in>transactiondesc.cpp</in>
+          <in>transactiondescdialog.cpp</in>
+          <in>transactionfilterproxy.cpp</in>
+          <in>transactionrecord.cpp</in>
+          <in>transactiontablemodel.cpp</in>
+          <in>transactionview.cpp</in>
+          <in>walletmodel.cpp</in>
+        </df>
+        <df name="scrypt-asm">
+          <in>asm-wrapper.cpp</in>
+        </df>
+        <df name="scrypt-intrin">
+          <in>scrypt-sse2.cpp</in>
+        </df>
+        <in>addrman.cpp</in>
+        <in>alert.cpp</in>
+        <in>bitcoinrpc.cpp</in>
+        <in>checkpoints.cpp</in>
+        <in>crypter.cpp</in>
+        <in>db.cpp</in>
+        <in>init.cpp</in>
+        <in>irc.cpp</in>
+        <in>kernel.cpp</in>
+        <in>kernelrecord.cpp</in>
+        <in>key.cpp</in>
+        <in>keystore.cpp</in>
+        <in>main.cpp</in>
+        <in>miner.cpp</in>
+        <in>net.cpp</in>
+        <in>netbase.cpp</in>
+        <in>noui.cpp</in>
+        <in>protocol.cpp</in>
+        <in>rpcblockchain.cpp</in>
+        <in>rpcdump.cpp</in>
+        <in>rpcmining.cpp</in>
+        <in>rpcnet.cpp</in>
+        <in>rpcrawtransaction.cpp</in>
+        <in>rpcwallet.cpp</in>
+        <in>script.cpp</in>
+        <in>scrypt-generic.cpp</in>
+        <in>stun.cpp</in>
+        <in>sync.cpp</in>
+        <in>txdb-bdb.cpp</in>
+        <in>txdb-leveldb.cpp</in>
+        <in>util.cpp</in>
+        <in>version.cpp</in>
+        <in>wallet.cpp</in>
+        <in>walletdb.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>upercoin-qt.pro</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>src/leveldb/db</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="MSVC/myupercoinqt/myupercoinqt_plugin_import.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <folder path="0/MSVC">
+        <ccTool>
+          <incDir>
+            <pElem>MSVC/myupercoinqt</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/json">
+        <ccTool>
+          <incDir>
+            <pElem>src/json</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/leveldb/db">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb/db</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/leveldb/doc">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb/doc/bench</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/leveldb/helpers">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb/helpers/memenv</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/leveldb/issues">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb/issues</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/leveldb/port">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb/port</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/leveldb/table">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb/table</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/leveldb/util">
+        <ccTool>
+          <incDir>
+            <pElem>src/leveldb/util</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/qt/test">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt/test</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/scrypt-asm">
+        <ccTool>
+          <incDir>
+            <pElem>src/scrypt-asm</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src/scrypt-intrin">
+        <ccTool>
+          <incDir>
+            <pElem>src/scrypt-intrin</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="src/addrman.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/alert.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/bitcoinrpc.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/checkpoints.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/crypter.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/db.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/init.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/irc.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/json/json_spirit_reader.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/json/json_spirit_value.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/json/json_spirit_writer.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/kernel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/kernelrecord.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/key.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/keystore.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/leveldb/db/autocompact_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/builder.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/c.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/c_test.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="src/leveldb/db/corruption_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/db_bench.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/db_impl.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/db_iter.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/db_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/dbformat.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/dbformat_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/dumpfile.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/filename.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/filename_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/leveldb_main.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/log_reader.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/log_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/log_writer.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/memtable.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/repair.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/skiplist_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/table_cache.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/version_edit.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/version_edit_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/db/version_set.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/version_set_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/write_batch.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/db/write_batch_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/doc/bench/db_bench_sqlite3.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/doc/bench/db_bench_tree_db.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/helpers/memenv/memenv.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/helpers/memenv/memenv_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/issues/issue178_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/issues/issue200_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/port/port_posix.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/port/port_win.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/block.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/block_builder.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/filter_block.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/filter_block_test.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/table/format.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/iterator.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/merger.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/table.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/table_builder.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/table_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/table/two_level_iterator.cc"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/leveldb/util/arena.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/arena_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/bloom.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/bloom_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/cache.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/cache_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/coding.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/coding_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/comparator.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/crc32c.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/crc32c_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/env.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/env_posix.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/env_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/env_win.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/filter_policy.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/hash.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/hash_test.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/histogram.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/logging.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/options.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/status.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/testharness.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/leveldb/util/testutil.cc" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/miner.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/net.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/netbase.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/noui.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/protocol.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/aboutdialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/addressbookpage.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/addresstablemodel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/askpassphrasedialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/bitcoin.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/bitcoinaddressvalidator.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/bitcoinamountfield.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/bitcoingui.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/bitcoinstrings.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/bitcoinunits.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/clientmodel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/coincontroldialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/coincontroltreewidget.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/csvmodelwriter.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/editaddressdialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/guiutil.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/intro.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/macdockiconhandler.mm" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/macnotificationhandler.mm" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/mintingfilterproxy.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/mintingtablemodel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/mintingview.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/monitoreddatamapper.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/multisigaddressentry.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/multisigdialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/multisiginputentry.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/notificator.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/optionsdialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/optionsmodel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/overviewpage.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/qrcodedialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/qtipcserver.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/qvalidatedlineedit.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/qvaluecombobox.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/rpcconsole.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/sendcoinsdialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/sendcoinsentry.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/signverifymessagedialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/test/test_main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/qt/test/uritests.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/qt/trafficgraphwidget.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/transactiondesc.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/transactiondescdialog.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/transactionfilterproxy.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/transactionrecord.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/transactiontablemodel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/transactionview.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/qt/walletmodel.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/qt</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/rpcblockchain.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/rpcdump.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/rpcmining.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/rpcnet.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/rpcrawtransaction.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/rpcwallet.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/script.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/scrypt-asm/asm-wrapper.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/scrypt-generic.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/scrypt-intrin/scrypt-sse2.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/stun.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/sync.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/txdb-bdb.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/txdb-leveldb.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/util.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/version.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/wallet.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/walletdb.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

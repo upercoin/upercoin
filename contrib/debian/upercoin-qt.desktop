@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=UperCoin
+Comment=UperCoin P2P Cryptocurrency
+Comment[ru]=UperCoin, P2P криптовалюта
+Comment[fr]=UperCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=UperCoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/upercoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/upercoin80.xpm
+MimeType=x-scheme-handler/upercoin;
+Categories=Office;
